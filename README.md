@@ -1,18 +1,23 @@
 Naive Bayes Classifier - Step-by-Step Guide
+
 🤖 What is Naive Bayes?
 Naive Bayes is a simple yet powerful probabilistic machine learning algorithm based on Bayes’ Theorem, used for classification tasks.
 
 🧠 Core Idea
+
 It calculates the probability of a class given some features and chooses the class with the highest probability.
 
 It’s called “naive” because it assumes all features are independent of each other — which is rarely true in the real world, but the model still performs surprisingly well!
 
 📐 Bayes' Theorem
+
 ![1754470350808](image/README/1754470350808.png)
 
 ![1754470392827](image/README/1754470392827.png)
 
 📌 Why Is Naive Bayes Useful in the Iris Example?
+
+
 ✅ 1. Fast and Efficient
 It trains quickly even on small machines or large datasets.
 
@@ -38,6 +43,7 @@ Can perform poorly if the assumption is too unrealistic.
 Doesn’t work well with correlated or highly skewed data.
 
 🟢 In Summary
+
 Naive Bayes is:
 
 A classifier based on probabilities.
@@ -51,6 +57,7 @@ It gives you both high accuracy and easy interpretability for this kind of task.
 This project demonstrates a Naive Bayes Classifier using Python and scikit-learn. We use the built-in Iris dataset to show how the model works step by step, from data loading to evaluation.
 
 🌼 Dataset
+
 Iris Dataset: A classic multiclass classification problem. The dataset contains 150 samples of iris flowers from three species (Setosa, Versicolor, Virginica). Each sample has four features:
 
 Sepal length
@@ -62,6 +69,7 @@ Petal length
 Petal width
 
 🛠️ Requirements
+
 Ensure you have the following Python packages installed:
 
 
@@ -69,6 +77,7 @@ pip install scikit-learn pandas numpy
 🚀 How to Run
 
 python naive_bayes_iris.py
+
 📊 Step-by-Step Breakdown
 1. Import Libraries
 We import sklearn for the model and dataset, and pandas/numpy for data handling.
@@ -131,6 +140,7 @@ macro avg       0.98      0.98      0.98        45
 weighted avg    0.98      0.98      0.98        45
 
 Prediction: setosa
+
 ✅ Summary
 Conclusion
 The model performs exceptionally well on all classes.
